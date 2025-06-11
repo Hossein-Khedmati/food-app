@@ -1,9 +1,5 @@
-import React from 'react'
+import HomePage from "../components/templates/HomePage";
 
-function index() {
-  return (
-    <div>index</div>
-  )
+export default function Home() {
+  return <HomePage />;
 }
-
-export default index
